@@ -47,8 +47,6 @@ public class Hafta4 {
         sayi /=10;
         }
         System.out.println("---------------------------------");
-        */
-        System.out.println("---------------------------------");
         int sayi=30494;
         int toplam_sayi=0;
         while(sayi !=0){
@@ -58,5 +56,16 @@ public class Hafta4 {
         }
         System.out.println(toplam_sayi);
         System.out.println("---------------------------------");
+        */
+        char karakter = 'a';
+        int N=5;
+        for(int i=1; i<=N; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(karakter+" ");
+            }
+            System.out.print(i);
+            karakter++;
+            System.out.println();
+        }
     }
 }
